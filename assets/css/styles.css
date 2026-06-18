@@ -516,7 +516,10 @@ h3 {
 }
 
 .contact-links a {
-  display: block;
+  display: grid;
+  grid-template-columns: 46px minmax(0, 1fr);
+  gap: 16px;
+  align-items: center;
   min-height: 132px;
   padding: 22px;
   text-decoration: none;
@@ -524,7 +527,26 @@ h3 {
   font-weight: 800;
 }
 
-.contact-links span {
+.contact-icon {
+  width: 46px;
+  height: 46px;
+  padding: 10px;
+  color: var(--forest);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: #fff;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.8;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.contact-copy {
+  min-width: 0;
+}
+
+.contact-copy span {
   display: block;
   margin-bottom: 14px;
   color: var(--clay);
@@ -538,7 +560,12 @@ h3 {
   border-color: var(--forest);
 }
 
-.contact-links .whatsapp span {
+.contact-links .whatsapp .contact-icon {
+  color: var(--forest);
+  border-color: rgba(255, 255, 255, 0.7);
+}
+
+.contact-links .whatsapp .contact-copy span {
   color: var(--sand);
 }
 

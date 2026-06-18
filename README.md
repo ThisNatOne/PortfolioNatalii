@@ -4,10 +4,10 @@ Static, dependency-free portfolio site for GitHub Pages or Netlify.
 
 ## Edit links
 
-- GitHub profile links currently point to `https://github.com/natgrzeskiewicz`.
+- GitHub profile links currently point to `https://github.com/ThisNatOne`.
 - Featured project links currently point to:
-  - `https://github.com/natgrzeskiewicz/test-automation`
-  - `https://github.com/natgrzeskiewicz/qa-sandbox`
+  - `https://github.com/ThisNatOne/QASandboxTests`
+  - `https://github.com/ThisNatOne/QASandbox`
 - If the repository names differ, update the two links in `experience.html`.
 
 ## Replace images
