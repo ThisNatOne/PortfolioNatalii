@@ -17,14 +17,21 @@
         <p class="lead">The through-line in my work is practical assurance under constraints: regulated delivery, project coordination, operational support, release risk, automation, and local AI experimentation for QA workflows. Since last year, I have been running and evolving a private AI setup with Open WebUI, Ollama, QA-focused models, Qdrant, and Langfuse.</p>
       </section>
 
-      <section class="proof-band" aria-label="Experience highlights">
+      <section id="experience-highlights" class="proof-band" aria-label="Experience highlights">
         <div><strong>8+ years</strong><span>QA experience</span></div>
         <div><strong>~2,000 users</strong><span>government system supported</span></div>
         <div><strong>Local AI</strong><span>Open WebUI, Ollama, Qdrant</span></div>
         <div><strong>Live incidents</strong><span>on-call response and RCA</span></div>
       </section>
 
-      <section class="timeline" aria-labelledby="roles-title">
+      <nav class="section-nav" aria-label="Experience page sections">
+        <a href="#roles">Roles</a>
+        <a href="#stories">Stories</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+      </nav>
+
+      <section id="roles" class="timeline" aria-labelledby="roles-title">
         <div class="section-heading">
           <p class="section-kicker">Role by role</p>
           <h2 id="roles-title">Professional experience</h2>
@@ -42,6 +49,7 @@
             <ul class="check-list">
               <li>Sole QA responsible for end-to-end assurance across complex delivery cycles.</li>
               <li>Designed Playwright automation for critical test paths, reducing a regression flow from 20 minutes to 2 minutes.</li>
+              <li>Performed manual and exploratory testing focused on critical user flows, edge cases, and risk areas.</li>
               <li>Built and evolved a local AI QA lab using Open WebUI on Docker, native Ollama on Windows, QA-focused Mistral and Qwen-Coder models, Qdrant, and Langfuse observability.</li>
               <li>Supported communications intelligence systems handling VoIP and IP data, where reliability and data integrity were central.</li>
               <li>Resolved a critical production incident blocking system traffic through structured on-call response and root cause analysis.</li>
@@ -72,6 +80,7 @@
             <p>Manual and risk-based testing across international projects, with a strong focus on release confidence and clearer go/no-go decisions.</p>
             <ul class="check-list">
               <li>Defined and introduced a release certification process covering scope, test summary, and go/no-go criteria.</li>
+              <li>Designed and reviewed test scenarios and test cases to ensure coverage of functional and business requirements.</li>
               <li>Performed manual testing across multiple projects to validate functional and business requirement coverage.</li>
               <li>Worked closely with developers to clarify requirements, validate fixes, and reduce release risk.</li>
               <li>Provided risk-based testing input during deployments and system changes.</li>
@@ -98,7 +107,9 @@
               <li>Tested Android and iOS mobile applications in a regulated financial environment.</li>
               <li>Validated backend and web components for end-to-end system behaviour.</li>
               <li>Analysed requirements and business rules to design scenarios and find gaps early.</li>
+              <li>Reported defects clearly and consistently, working closely with developers to support timely fixes.</li>
               <li>Participated in Agile sprint activities and release validation.</li>
+              <li>Gained experience in regulated and customer-facing environments, where data accuracy and reliability were critical.</li>
             </ul>
             <div class="tag-row">
               <span>Mobile QA</span>
@@ -110,7 +121,61 @@
         </article>
       </section>
 
-      <section class="skills-section" aria-labelledby="skills-title">
+      <section id="stories" class="stories-section" aria-labelledby="stories-title">
+        <div class="section-heading">
+          <p class="section-kicker">Selected stories</p>
+          <h2 id="stories-title">Real-world QA beyond the test plan</h2>
+          <p>Selected examples from my QA career showing how I work when quality depends on ownership, communication, technical judgement, and clear release decisions.</p>
+        </div>
+
+        <div class="stories-grid">
+          <article class="story-card">
+            <span class="story-index">01</span>
+            <div>
+              <h3>Production Incident &amp; Recovery</h3>
+              <p class="story-tagline">Restoring critical services under pressure</p>
+            </div>
+            <p><strong>Situation:</strong> A critical production outage affected platform availability and customer data access, requiring coordinated recovery across infrastructure and engineering teams.</p>
+            <p><strong>Action:</strong> I supported troubleshooting, validated recovery steps, checked user-facing behaviour after each change, and helped coordinate progress under time pressure.</p>
+            <p><strong>Impact:</strong> I contributed to restoring functionality on three out of four affected nodes, making approximately 75% of customer data accessible again while the remaining recovery work continued.</p>
+          </article>
+
+          <article class="story-card">
+            <span class="story-index">02</span>
+            <div>
+              <h3>Delivery &amp; Team Coordination</h3>
+              <p class="story-tagline">Bridging quality, planning, and execution</p>
+            </div>
+            <p><strong>Situation:</strong> As the primary QA engineer, I worked close to both delivery planning and hands-on validation throughout the software lifecycle.</p>
+            <p><strong>Action:</strong> I analysed requirements, joined solution reviews, supported proof-of-concept demos, created user guides, coordinated sprint planning and closure, and kept Kanban work visible.</p>
+            <p><strong>Impact:</strong> Acting between business and technical perspectives helped the team stay aligned on priorities, deadlines, and the quality evidence needed before release.</p>
+          </article>
+
+          <article class="story-card">
+            <span class="story-index">03</span>
+            <div>
+              <h3>Automation for Faster Releases</h3>
+              <p class="story-tagline">Reducing risk through automation</p>
+            </div>
+            <p><strong>Situation:</strong> Repetitive manual checks were slowing release readiness and taking time away from deeper exploratory testing.</p>
+            <p><strong>Action:</strong> I built a TypeScript and Playwright automation framework focused on critical business workflows, high-risk journeys, stable coverage, and fast feedback before deployment.</p>
+            <p><strong>Impact:</strong> The suite reduced manual verification effort and created more space for risk assessment, exploratory testing, and production validation.</p>
+          </article>
+
+          <article class="story-card">
+            <span class="story-index">04</span>
+            <div>
+              <h3>Sole QA Ownership</h3>
+              <p class="story-tagline">Owning quality from idea to production</p>
+            </div>
+            <p><strong>Situation:</strong> Within a seven-person delivery team, I was the sole QA responsible for quality across planning, testing, release preparation, production validation, and incident response.</p>
+            <p><strong>Action:</strong> I balanced hands-on testing, automation, stakeholder communication, sprint support, delivery coordination, and production troubleshooting.</p>
+            <p><strong>Impact:</strong> The role strengthened my ability to work independently, adapt quickly, and take ownership beyond traditional QA boundaries whenever project success required it.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="skills" class="skills-section" aria-labelledby="skills-title">
         <div class="section-heading">
           <p class="section-kicker">Toolkit</p>
           <h2 id="skills-title">Skills and technologies</h2>
@@ -136,10 +201,18 @@
             <h3>Local AI QA lab</h3>
             <p>Open WebUI, Docker, Ollama on Windows, Mistral, Qwen-Coder, Qdrant, Langfuse, prompt experimentation, retrieval workflows, and AI observability.</p>
           </div>
+          <div>
+            <h3>Languages</h3>
+            <p>English: Fluent <br> Polish: Native <br>Spanish: Intermediate</p>
+          </div>
+          <div>
+            <h3>Project and Collaboration</h3>
+            <p>Jira, Confluence, Scrum, Kanban.</p>
+          </div>
         </div>
       </section>
 
-      <section class="projects-section" aria-labelledby="projects-title">
+      <section id="projects" class="projects-section" aria-labelledby="projects-title">
         <div class="section-heading">
           <p class="section-kicker">Featured GitHub projects</p>
           <h2 id="projects-title">Public QA work</h2>
